@@ -1,6 +1,6 @@
 # Creating Table using MYSQL BASIC
 
-## Steps in Task 1:
+# Steps in Task 1:
 
 - Create a table named employees wtih the following fields.
 - employee_id: Unique integer, auto increment, primary key.
@@ -10,8 +10,7 @@
 <img src="images/employees tbl.png" alt="alt text" width="600">
 
 
-
-  ##  Steps in Task 2:
+  #  Steps in Task 2:
   
   - Create a table named departments wtih the following fields.
   - department_id: Unique integer, auto increment, primary key.
@@ -20,7 +19,7 @@
  <img src="images/department tbl.png" alt="alt text" width="600">
 
 
-  ##  Steps in Task 3:
+  #  Steps in Task 3:
   
   - Create a table named employee_department wtih the following fields.
   - employee_id: Integer, foreign key referencing employee_id in employees.
@@ -30,7 +29,7 @@
    <img src="images/employee_department tbl.png" alt="alt text" width="600">
 
 
-   ##  Steps in Task 4:
+   #  Steps in Task 4:
    
    - Create a table named employee_projects wtih the following fields.
    - employee_id: Integer, foreign key referencing employee_id in employees.
