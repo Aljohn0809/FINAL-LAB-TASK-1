@@ -11,7 +11,7 @@
 
 
 
-  ## Steps in Task 2:
+  ##  Steps in Task 2:
   - Create a table named departments wtih the following fields.
   - department_id: Unique integer, auto increment, primary key.
   - department_name: String (VARCHAR) with up to 255 characters, not null.
@@ -19,7 +19,7 @@
  <img src="images/department tbl.png" alt="alt text" width="600">
 
 
-  ## Steps in Task 3:
+  ##  Steps in Task 3:
   - Create a table named employee_department wtih the following fields.
   - employee_id: Integer, foreign key referencing employee_id in employees.
   - department_id: Integer, foreign key referencing department_id in departments
@@ -28,14 +28,14 @@
    <img src="images/employee_department tbl.png" alt="alt text" width="600">
 
 
-   ## Steps in Task 4:
+   ##  Steps in Task 4:
    - Create a table named employee_projects wtih the following fields.
    - employee_id: Integer, foreign key referencing employee_id in employees.
    - project_name: String (VARCHAR) with up to 255 characters, not null
 
   <img src="images/employee_project tbl.png" alt="alt text" width="600">
 
-  ## Steps in Task 5:
+  ##  Steps in Task 5:
   - Create a table named managers with the following fields.
   - manager_id: Unique integer, auto increment, primary key.
   - employee_id: Integer, foreign key referencing employee_id in employees.
