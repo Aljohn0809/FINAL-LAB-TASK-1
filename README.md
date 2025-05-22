@@ -7,7 +7,7 @@
 - employee_name: String (VARCHAR) with up to 255 characters, not null
 - manager_id: Integer, foreign key referencing employee_id in the same table(employee).
   
-![image](https://github.com/user-attachments/assets/e4de50b2-0564-4d8e-ae17-7d83fa8df83c)
+<img src="images/employees tbl.png" alt="alt text" width="600">
 
 
 
@@ -16,7 +16,7 @@
   - department_id: Unique integer, auto increment, primary key.
   - department_name: String (VARCHAR) with up to 255 characters, not null.
     
- ![image](https://github.com/user-attachments/assets/fedab61a-ffd9-4222-8f64-4596a5619473)
+ <img src="images/department tbl.png" alt="alt text" width="600">
 
 
   ## Steps in Task 3:
@@ -25,7 +25,7 @@
   - department_id: Integer, foreign key referencing department_id in departments
   - Composite primary key (employee_id, department_id).
     
-   ![image](https://github.com/user-attachments/assets/61667581-3e73-402c-8337-34fbc25f2040)
+   <img src="images/employee_department tbl.png" alt="alt text" width="600">
 
 
    ## Steps in Task 4:
@@ -33,18 +33,17 @@
    - employee_id: Integer, foreign key referencing employee_id in employees.
    - project_name: String (VARCHAR) with up to 255 characters, not null
 
-     ![image](https://github.com/user-attachments/assets/48d56d65-f6ee-43d6-8b5a-cb291f48c642)
-
+  <img src="images/employee_project tbl.png" alt="alt text" width="600">
 
   ## Steps in Task 5:
   - Create a table named managers with the following fields.
   - manager_id: Unique integer, auto increment, primary key.
   - employee_id: Integer, foreign key referencing employee_id in employees.
 
-    ![image](https://github.com/user-attachments/assets/32011f80-e711-4ae2-82d8-4e0b86cfdcda)
+   <img src="images/managers tbl.png" alt="alt text" width="600">
 
 ### Copy of ER Diagram
-![image](https://github.com/user-attachments/assets/fd7a36ba-0bbc-4227-9b95-9a770e2482c5)
+<img src="images/ERD.png" alt="alt text" width="600">
 
 
 
